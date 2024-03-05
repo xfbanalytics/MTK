@@ -1,0 +1,10 @@
+CREATE TABLE input_catapult_positions(load_timestamp DATETIME DEFAULT GETDATE(),
+id NVARCHAR(MAX),
+name NVARCHAR(MAX),
+slug NVARCHAR(MAX),
+sport_id NVARCHAR(MAX),
+sport_name NVARCHAR(MAX),
+created_at NVARCHAR(MAX),
+modified_at NVARCHAR(MAX),
+tag_list NVARCHAR(MAX),
+tags NVARCHAR(MAX))

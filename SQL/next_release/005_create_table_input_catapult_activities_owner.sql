@@ -1,0 +1,12 @@
+CREATE TABLE input_catapult_activities_owner(load_timestamp DATETIME DEFAULT GETDATE(),
+id NVARCHAR(MAX),
+customer_id NVARCHAR(MAX),
+name NVARCHAR(MAX),
+email NVARCHAR(MAX),
+is_synced NVARCHAR(MAX),
+is_deleted NVARCHAR(MAX),
+created_at NVARCHAR(MAX),
+modified_at NVARCHAR(MAX),
+default NVARCHAR(MAX),
+software_version NVARCHAR(MAX),
+full_name NVARCHAR(MAX))

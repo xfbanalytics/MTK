@@ -1,0 +1,11 @@
+CREATE TABLE input_catapult_parameters(load_timestamp DATETIME DEFAULT GETDATE(),
+id NVARCHAR(MAX),
+parameter_type_id NVARCHAR(MAX),
+name NVARCHAR(MAX),
+original_name NVARCHAR(MAX),
+slug NVARCHAR(MAX),
+calculation NVARCHAR(MAX),
+ctr_order NVARCHAR(MAX),
+created_at NVARCHAR(MAX),
+modified_at NVARCHAR(MAX),
+unit_type NVARCHAR(MAX))

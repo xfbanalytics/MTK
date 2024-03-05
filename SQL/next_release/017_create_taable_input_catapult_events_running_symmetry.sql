@@ -1,0 +1,10 @@
+CREATE TABLE input_catapult_events_running_symmetry(load_timestamp DATETIME DEFAULT GETDATE(),
+start_time NVARCHAR(MAX),
+end_time NVARCHAR(MAX),
+version NVARCHAR(MAX),
+foostrikes NVARCHAR(MAX),
+imbalance NVARCHAR(MAX),
+distance NVARCHAR(MAX),
+line_deviation NVARCHAR(MAX),
+avg_velocity NVARCHAR(MAX),
+max_velocity NVARCHAR(MAX))
