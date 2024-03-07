@@ -1,12 +1,14 @@
 CREATE TABLE input_catapult_efforts(load_timestamp DATETIME DEFAULT GETDATE(),
-athlete_id NVARCHAR(MAX),
-device_id NVARCHAR(MAX),
-player_id NVARCHAR(MAX),
-athlete_first_name NVARCHAR(MAX),
-athlete_last_name NVARCHAR(MAX),
-jersey NVARCHAR(MAX),
-team_id NVARCHAR(MAX),
-team_name NVARCHAR(MAX),
-data NVARCHAR(MAX))
+activity_id NVARCHAR(100),
+period_id NVARCHAR(100),
+athlete_id NVARCHAR(100),
+device_id INT,
+player_id NVARCHAR(100),
+athlete_first_name NVARCHAR(100),
+athlete_last_name NVARCHAR(100),
+jersey NVARCHAR(100),
+team_id NVARCHAR(100),
+team_name NVARCHAR(100),
+data NVARCHAR(500))
 
 

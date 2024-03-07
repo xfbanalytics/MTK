@@ -1,9 +1,9 @@
 CREATE TABLE input_catapult_tags(load_timestamp DATETIME DEFAULT GETDATE(),
-id NVARCHAR(MAX),
-tag_type_id NVARCHAR(MAX),
-name NVARCHAR(MAX),
-is_synced NVARCHAR(MAX),
-is_deleted NVARCHAR(MAX),
-created_at NVARCHAR(MAX),
-modified_at NVARCHAR(MAX),
-tag_name NVARCHAR(MAX))
+id NVARCHAR(100),
+tag_type_id NVARCHAR(100),
+name NVARCHAR(100),
+is_synced INT,
+is_deleted INT,
+created_at DATETIME,
+modified_at DATETIME,
+tag_name NVARCHAR(100))

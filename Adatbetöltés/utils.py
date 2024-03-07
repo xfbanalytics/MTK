@@ -9,3 +9,6 @@ def new_dict(old_dict, key_to_pop):
 #def insert_dictionary_to_table(cursor, dictionary, target_table):
 
     
+
+def list_replace(list,from_,to_):
+    return [to_ if x==from_ else x for x in list]

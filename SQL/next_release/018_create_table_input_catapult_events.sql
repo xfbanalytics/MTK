@@ -1,4 +1,6 @@
 CREATE TABLE input_catapult_events(load_timestamp DATETIME DEFAULT GETDATE(),
+activity_id NVARCHAR(MAX),
+period_id NVARCHAR(MAX),
 athlete_id NVARCHAR(MAX),
 device_id NVARCHAR(MAX),
 player_id NVARCHAR(MAX),
